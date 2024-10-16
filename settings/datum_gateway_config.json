@@ -4,12 +4,6 @@
          "rpcpassword": "bar",
          "rpcurl": "127.0.0.1:8332"
      },
-     "stratum":{
-         "max_clients_per_thread": 10,
-	 "vardiff_min": 1,
-         "max_threads": 1,
-         "max_clients": 10
-     },
      "mining":{
          "pool_address": "",
          "coinbase_tag_primary": "change this",
