@@ -10,4 +10,6 @@ COPY datum_gateway /app/
 
 RUN cmake . && make
 
+LABEL org.opencontainers.image.source https://github.com/retropex/datum-docker
+
 CMD ["./datum_gateway", "-c datum-setting.json"]
