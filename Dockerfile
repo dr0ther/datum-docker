@@ -24,4 +24,4 @@ LABEL org.opencontainers.image.source https://github.com/retropex/datum-docker
 
 LABEL org.opencontainers.image.description Datum in a container
 
-CMD ["./datum_gateway", "-c datum-setting.json"]
+CMD ["./datum_gateway"]
