@@ -2,11 +2,11 @@
      "bitcoind":{
          "rpcuser": "foo",
          "rpcpassword": "bar",
-         "rpcurl": "127.0.0.1:8332"
+         "rpcurl": "bitcoind:8332"
      },
      "mining":{
          "pool_address": "",
-         "coinbase_tag_primary": "change this",
+         "coinbase_tag_primary": "DATUM on Docker",
          "coinbase_unique_id": 1
      }
 }
