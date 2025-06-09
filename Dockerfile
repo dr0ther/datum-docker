@@ -1,5 +1,7 @@
 FROM debian:bookworm-slim AS build
 
+EXPOSE 7152 21000 23334
+
 RUN apt update
 
 RUN apt install libmicrohttpd12 libjansson4 libsodium23 build-essential cmake curl libmicrohttpd-dev libjansson-dev libcurl4-openssl-dev libpq-dev libgcrypt20-dev libsodium-dev pkg-config git -y
