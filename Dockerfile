@@ -1,6 +1,6 @@
 FROM debian:bookworm-slim AS build
 
-EXPOSE 7152 21000 23334
+EXPOSE 7152 23334
 
 RUN apt update
 
